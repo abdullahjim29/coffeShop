@@ -1,6 +1,5 @@
 import { Outlet } from "react-router-dom";
 import NavBar from "../components/NavBar";
-import Banner from "../components/Banner";
 
 const MainLayout = () => {
   return (
@@ -9,9 +8,6 @@ const MainLayout = () => {
         <nav>
             <NavBar/>
         </nav>
-
-        {/* banner */}
-        <Banner/>
       </header>
 
       <main>
@@ -19,7 +15,7 @@ const MainLayout = () => {
       </main>
 
       <footer>
-        <h2 className="font-raleway text-4xl">Hello World</h2>
+        <h2 className="font-raleway text-4xl">FOOOOOOOOOOOTER</h2>
       </footer>
     </div>
   );
