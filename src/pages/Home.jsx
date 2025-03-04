@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import Products from "../components/Products";
 import Servises from "../components/Servises";
 const Home = () => {
     return (
@@ -8,6 +9,9 @@ const Home = () => {
 
         {/* our servises section */}
         <Servises/>
+
+        {/* our popular products */}
+        <Products/>
         </div>
     );
 };
